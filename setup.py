@@ -15,7 +15,7 @@ setup(name='PyTorch-ProbGraph',
                         'sphinx_rtd_theme', 'sphinx', 'setuptools'],
       classifiers=[
         "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: MIT License",
+        "License :: OSI Approved :: BSD License",
         "Operating System :: OS Independent",
         ],
       python_requires='>=3.6',
