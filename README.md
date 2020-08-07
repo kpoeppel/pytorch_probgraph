@@ -7,11 +7,14 @@ to easily use and adapt directed and undirected Hierarchical Probabilistic
 Graphical Models. These include Restricted Boltzmann Machines,
 Deep Belief Networks, Deep Boltzmann Machines and Helmholtz
 Machines (Sigmoid Belief Networks).
+
 Models can be set up in a modular fashion, using UnitLayers, layers of Random Units and Interactions between these UnitLayers.
 Currently, only Gaussian, Categorical and Bernoulli units are available, but an extension can be made to allow all kinds of distributions from the Exponential family.
 (see https://en.wikipedia.org/wiki/Exponential_family)
+
 The Interactions are usually only linear for undirected models, but can be built
 from arbitrary PyTorch torch.nn.Modules (using forward and the backward gradient).
+
 There is a pre-implemented fully-connected InteractionLinear, one for using
 existing torch.nn.Modules and some custom Interactions / Mappings to enable
 Probabilistic Max-Pooling. Interactions can also be connected without intermediate
