@@ -29,11 +29,15 @@ Go inside directory 'docs' and run 'make html' (having Sphinx installed).
 The documentation can then be found inside the _build sub-directory.
 
 ## Examples
-There are some example models, as well as an evaluation script in the `examples`
-folder.
+There are some example models, as well as an evaluation script using the EMNIST dataset in the `examples`
+folder. 
 
 ## License
 This library is distributed in a ... license.
+
+## Setup
+The library is accessible via the PyPi repository and can be install by:
+pip install pytorch_probgraph
 
 ## References
 Ian Goodfellow and Yoshua Bengio and Aaron Courville,
