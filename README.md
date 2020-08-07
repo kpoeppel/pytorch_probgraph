@@ -33,7 +33,7 @@ There are some example models, as well as an evaluation script using the EMNIST 
 folder. 
 
 ## License
-This library is distributed in a ... license.
+This library is distributed in a BSD 3-clause license.
 
 ## Setup
 The library is accessible via the PyPi repository and can be install by:
