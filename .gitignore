@@ -1,3 +1,6 @@
 *__pycache__
 docs/_build
 pytorch_probgraph/__pycache__
+build
+dist
+PyTorch_ProbGraph.egg-info
